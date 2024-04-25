@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bod{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('assets/destination/background-destination-desktop.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.head{
+    position: sticky;
+    margin-top: -590px;
+    border: 1px;
+    margin-left: 900px;
+    box-shadow: 0 2px 3px  0 ;
+    /* background-color: slategray; */
+}
+.head a{
+    /* background-color: grey; */
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    line-height: 50px;
+    position: relative;
+    z-index: 1; 
+    display: inline-block;
+    text-align: center;
+}
+.animation{
+    position: absolute;
+    height: 5px;
+    bottom: 0;
+    z-index: 0;
+    background: slategray;
+    width: 100px;
+    transition: all .5s ease 0s;
+}
+a:nth-child(1){
+    width: 100px;
+}
+.start-home,a:nth-child(1):hover~.animation{
+    width: 100px;
+    left: 0;
+}
+a:nth-child(2){
+    width: 110px;
+}
+.start-destination,a:nth-child(2):hover~.animation{
+    width: 110px;
+    left: 100px;
+}
+a:nth-child(3){
+    width: 100px;
+}
+.start-crew,a:nth-child(3):hover~.animation{
+    width: 100px;
+    left: 210px;
+}
+a:nth-child(4){
+    width: 120px;
+}
+.start-technology,a:nth-child(4):hover~.animation{
+    width: 120px;
+    left: 310px;
+}
