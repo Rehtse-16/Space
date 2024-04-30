@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Optima nova LT Pro', sans-serif;
+                                                
 }
 .bod{
     display: flex;
@@ -12,17 +14,25 @@
     background-position: center;
     background-size: cover;
 }
+.logo{
+    margin-top: -500px;
+    padding: 30px;
+}
 .head{
     position: sticky;
-    margin-top: -590px;
-    border: 1px;
-    margin-left: 900px;
-    box-shadow: 0 2px 3px  0 ;
-    /* background-color: slategray; */
+    margin-top: -500px;
+    margin-left: 500px;
+    backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(50px);
+    display: flex;
+    flex-wrap: nowrap;
+    width: 800px;
+    padding: 10px 20px 10px 30px;
+
 }
 .head a{
     /* background-color: grey; */
-    font-size: 15px;
+    font-size: 14px;
     color: white;
     text-decoration: none;
     line-height: 50px;
@@ -30,41 +40,50 @@
     z-index: 1; 
     display: inline-block;
     text-align: center;
+    text-wrap: nowrap;
+    padding: 30px auto;
+    padding-left: 40px;
+    padding-right: 20px;
 }
 .animation{
     position: absolute;
     height: 5px;
     bottom: 0;
     z-index: 0;
-    background: slategray;
-    width: 100px;
+    background: white;
+    border-radius: 2px;
+    /* width: 100px; */
     transition: all .5s ease 0s;
 }
 a:nth-child(1){
     width: 100px;
+    left: 50px;
 }
 .start-home,a:nth-child(1):hover~.animation{
-    width: 100px;
-    left: 0;
+    width: 90px;
+    left: 110px;
 }
 a:nth-child(2){
-    width: 110px;
+    width:110px;
+    left: 50px;
 }
 .start-destination,a:nth-child(2):hover~.animation{
     width: 110px;
-    left: 100px;
+    left: 220px;
 }
 a:nth-child(3){
-    width: 100px;
+    width: 110px;
+    left: 70px;
 }
 .start-crew,a:nth-child(3):hover~.animation{
-    width: 100px;
-    left: 210px;
+    width: 80px;
+    left: 340px;
 }
 a:nth-child(4){
     width: 120px;
+    left: 50px;
 }
 .start-technology,a:nth-child(4):hover~.animation{
     width: 120px;
-    left: 310px;
+    left: 440px;
 }
