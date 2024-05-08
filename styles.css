@@ -16,12 +16,20 @@
 }
 /* navigation bar */
 .logo{
-    margin-top: -500px;
+    margin-top: -544px;
+    margin-left: 55px;
     padding: 30px;
+}
+.rec{
+    position: absolute;
+    width: 473px;
+    margin-top: -558px;
+    z-index: 1;
+    margin-left: -450px;
 }
 .head{
     position: sticky;
-    margin-top: -500px;
+    margin-top: -550px;
     margin-left: 500px;
     backdrop-filter: blur(50px);
     -webkit-backdrop-filter: blur(50px);
@@ -29,11 +37,11 @@
     flex-wrap: nowrap;
     width: 800px;
     padding: 10px 20px 10px 30px;
-
+    font-size: 16px;
 }
 .head a{
     /* background-color: grey; */
-    font-size: 14px;
+   
     color: white;
     text-decoration: none;
     line-height: 50px;
@@ -45,6 +53,7 @@
     padding: 30px auto;
     padding-left: 40px;
     padding-right: 20px;
+    letter-spacing: 2.7px;
 }
 .animation{
     position: absolute;
@@ -61,32 +70,32 @@ a:nth-child(1){
     left: 50px;
 }
 .start-home,a:nth-child(1):hover~.animation{
-    width: 90px;
-    left: 110px;
+    width: 100px;
+    left: 90px;
 }
 a:nth-child(2){
     width:110px;
     left: 50px;
 }
 .start-destination,a:nth-child(2):hover~.animation{
-    width: 110px;
-    left: 220px;
+    width: 140px;
+    left: 205px;
 }
 a:nth-child(3){
     width: 110px;
-    left: 70px;
+    left: 100px;
 }
 .start-crew,a:nth-child(3):hover~.animation{
     width: 80px;
-    left: 340px;
+    left: 370px;
 }
 a:nth-child(4){
     width: 120px;
-    left: 50px;
+    left: 105px;
 }
 .start-technology,a:nth-child(4):hover~.animation{
-    width: 120px;
-    left: 440px;
+    width: 150px;
+    left: 490px;
 }
 
 /* Rest of body */

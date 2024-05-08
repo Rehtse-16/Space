@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Optima nova LT Pro', sans-serif;
+
 }
 .bod{
     display: flex;
@@ -14,18 +14,29 @@
     background-size: cover;
 }
 .logo{
-    margin-top: -500px;
+    margin-top: -544px;
+    margin-left: 55px;
     padding: 30px;
+    /* width: 48px;
+    height: 48px; */
+}
+.rec{
+    position: absolute;
+    width: 473px;
+    margin-top: -558px;
+    z-index: 1;
+    margin-left: -450px;
 }
 .head{
     position: sticky;
     margin-top: -550px;
     margin-left: 500px;
-    backdrop-filter: blur(50px);
-    -webkit-backdrop-filter: blur(50px);
+    /* background-color: aliceblue; */
+    backdrop-filter: blur(150px);
+    -webkit-backdrop-filter: blur(150px);
     display: flex;
     flex-wrap: nowrap;
-    width: 800px;
+    width: 5000px;
     padding: 10px 10px 10px 20px;
     font-size: 16px;
 }
@@ -47,7 +58,7 @@
 }
 .animation{
     position: absolute;
-    height: 5px;
+    height: 2px;
     bottom: 0;
     z-index: 0;
     background: white;
@@ -69,18 +80,18 @@ a:nth-child(2){
 }
 .start-destination,a:nth-child(2):hover~.animation{
     width: 130px;
-    left: 205px;
+    left: 215px;
 }
 a:nth-child(3){
     width: 110px;
     left: 100px;
 }
 .start-crew,a:nth-child(3):hover~.animation{
-    width: 80px;
-    left: 370px;
+    width: 90px;
+    left: 350px;
 }
 a:nth-child(4){
-    width: 120px;
+    width: 100px;
     left: 105px;
 }
 .start-technology,a:nth-child(4):hover~.animation{
@@ -91,7 +102,7 @@ a:nth-child(4){
 
 #text{
     color: white;     
-    margin-left: -1150px;
+    margin-left: -1250px;
     margin-top: 96px;
     /* margin: 76pxpx 0px 0px -1111.5px; */
     text-transform: uppercase;
@@ -106,22 +117,108 @@ a:nth-child(4){
 .image{
     margin-top: 70px;
     width: 350px;
-    margin-left: -1100px;
+    margin-left: -1200px;
+}
+.rc{
+    display: flex;
+    /* justify-content: space-between; */
+    /* margin-right: -1000px; */
 }
 .rc a{
+    margin-top: -40px;
     text-decoration: none;
     color: white;
-    font-size: 16px;
+    font-size: 18px;
     text-align: center;
-    /* margin-right: 40px; */
+    /* margin-bottom: 37px; */
+    margin-inline: -10px;
+    /* margin-left: -540px; */
+}
+#moon{
+    margin-left: -600px;
 }
 .anime{
     position: absolute;
-    height: 5px;
+    height: 2px;
     bottom: 0;
     z-index: 0;
     background: white;
     border-radius: 2px;
     /* width: 100px; */
     transition: all .5s ease 0s;
+}
+a:nth-child(1){
+    width: 110px;
+    left: 50px;
+}
+.start-moon,a:nth-child(1):hover~.anime{
+    width: 40px;
+    left: 800px;
+    top: 330px;
+}
+a:nth-child(2){
+    width:90px;
+    left: 50px;
+}
+.start-mars,a:nth-child(2):hover~.anime{
+    width: 40px;
+    left: 880px;
+    top: 330px;
+}
+a:nth-child(3){
+    width: 110px;
+    left: 100px;
+}
+.start-europa,a:nth-child(3):hover~.anime{
+    width: 60px;
+    left: 955px;
+    top: 330px;
+}
+a:nth-child(4){
+    width: 100px;
+    left: 105px;
+}
+.start-titan,a:nth-child(4):hover~.anime{
+    width: 50px;
+    left: 1045px;
+    top: 330px;
+}
+
+#mars{
+    color: white;
+    font-size: 100px;
+    margin-top: 190px;
+    margin-left: -570px;
+    /* text-align: center; */
+}
+#forget{
+    color: white;
+    font-size: 18px;
+    /* margin-top: 47px; */
+    margin-left: -570px;
+}
+.rec1{
+    position: absolute;
+    width: 400px;
+    margin-top: 450px;
+    z-index: 1;
+    margin-left: 620px;
+}
+.dist{
+    display: flex;
+    color: white;
+    margin-top: 570px;
+}
+.avg{
+    margin-left: -570px;
+    margin-right: 68px;
+}
+#time{
+    font-size: 14px;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+}
+#month{
+    font-size: 28px;
+    text-transform: uppercase;
 }
