@@ -19,19 +19,19 @@
 }
 .head{
     position: sticky;
-    margin-top: -500px;
+    margin-top: -550px;
     margin-left: 500px;
     backdrop-filter: blur(50px);
     -webkit-backdrop-filter: blur(50px);
     display: flex;
     flex-wrap: nowrap;
     width: 800px;
-    padding: 10px 20px 10px 30px;
-
+    padding: 10px 10px 10px 20px;
+    font-size: 16px;
 }
 .head a{
     /* background-color: grey; */
-    font-size: 14px;
+    /* font-size: 14px; */
     color: white;
     text-decoration: none;
     line-height: 50px;
@@ -43,6 +43,7 @@
     padding: 30px auto;
     padding-left: 40px;
     padding-right: 20px;
+    letter-spacing: 2.7px;
 }
 .animation{
     position: absolute;
@@ -59,45 +60,68 @@ a:nth-child(1){
     left: 50px;
 }
 .start-home,a:nth-child(1):hover~.animation{
-    width: 90px;
-    left: 110px;
+    width: 100px;
+    left: 90px;
 }
 a:nth-child(2){
     width:110px;
     left: 50px;
 }
 .start-destination,a:nth-child(2):hover~.animation{
-    width: 110px;
-    left: 220px;
+    width: 130px;
+    left: 205px;
 }
 a:nth-child(3){
     width: 110px;
-    left: 70px;
+    left: 100px;
 }
 .start-crew,a:nth-child(3):hover~.animation{
     width: 80px;
-    left: 340px;
+    left: 370px;
 }
 a:nth-child(4){
     width: 120px;
-    left: 50px;
+    left: 105px;
 }
 .start-technology,a:nth-child(4):hover~.animation{
     width: 120px;
-    left: 440px;
+    left: 490px;
 }
 /* body */
+
 #text{
     color: white;     
-    margin-left: -1200px;
-    margin-top: 200px;
+    margin-left: -1150px;
+    margin-top: 96px;
+    /* margin: 76pxpx 0px 0px -1111.5px; */
     text-transform: uppercase;
+    text-wrap: nowrap;
+    font-size: 21px;
+    letter-spacing: 4.52px;
 }
 #grey{
     color: rgb(51, 51, 51);
+    margin-right: 10px;
 }
 .image{
     margin-top: 70px;
     width: 350px;
-    margin-left: -1200px;
+    margin-left: -1100px;
+}
+.rc a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    /* margin-right: 40px; */
+}
+.anime{
+    position: absolute;
+    height: 5px;
+    bottom: 0;
+    z-index: 0;
+    background: white;
+    border-radius: 2px;
+    /* width: 100px; */
+    transition: all .5s ease 0s;
 }
