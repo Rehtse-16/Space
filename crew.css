@@ -54,7 +54,7 @@
 }
 .animation{
     position: absolute;
-    height: 5px;
+    height: 3px;
     bottom: 0;
     z-index: 0;
     background: white;
@@ -93,4 +93,93 @@ a:nth-child(4){
 .start-technology,a:nth-child(4):hover~.animation{
     width: 120px;
     left: 490px;
+}
+/* rest of body */
+
+#text{
+    color: white;     
+    margin-left: -1250px;
+    margin-top: -190px;
+    /* margin: 76pxpx 0px 0px -1111.5px; */
+    text-transform: uppercase;
+    text-wrap: nowrap;
+    font-size: 21px;
+    letter-spacing: 4.52px;
+}
+#grey{
+    color: rgb(51, 51, 51);
+    margin-right: 10px;
+}
+/* left side */
+.doug{
+    width: 450px;
+    height: 516px;
+    margin: 159px 137px 0px -590px;
+}
+/* right side */
+.right{
+    margin-left:  -555px;
+    position: absolute;
+    top: 250px;
+    color: #fff;
+}
+.right2{
+    margin-left:  -455px;
+    position: absolute;
+    top: 250px;
+    color: #fff;
+}
+.right3{
+    margin-left:  -630px;
+    position: absolute;
+    top: 250px;
+    color: #fff;
+}
+.command{
+    font-size: 32px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+.name{
+    text-transform: uppercase;
+    font-size: 56px;
+    margin-bottom: 27px;
+}
+.info{
+    font-size: 18px;
+    color: #D0D6F9;
+}
+.pagination{
+    position: absolute;
+    display: flex;
+    left: 150px;
+    top: 560px
+}
+.pagination a{
+    /* position: absolute; */
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #979797;  
+    margin: 10px;
+}
+.pagination a:hover{
+    background-color: #fff;
+}
+.pagination1{
+    position: absolute;
+    display: flex;
+    left: 135px;
+    top: 560px
+}
+.pagination1 a{
+    /* position: absolute; */
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #979797;  
+    margin: 10px;
+}
+.pagination1 a:hover{
+    background-color: #fff;
 }

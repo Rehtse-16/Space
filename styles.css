@@ -57,7 +57,7 @@
 }
 .animation{
     position: absolute;
-    height: 5px;
+    height: 3px;
     bottom: 0;
     z-index: 0;
     background: white;
